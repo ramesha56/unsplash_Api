@@ -1,0 +1,93 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f7f7;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+  font-family: "Protest Revolution", sans-serif; 
+  letter-spacing: 2px;
+    font-size: 2rem;
+    text-align: center;
+    color: #333;
+    padding: 20px;
+}
+
+.search-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    padding: 20px;
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#searchInput {
+    padding: 10px;
+    font-size: 16px;
+    font-family: "Protest Revolution", sans-serif; 
+    letter-spacing: 2px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    width: 300px;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+#searchInput:focus {
+    border-color: #f4a261;
+}
+
+#searchButton {
+    padding: 10px 15px;
+    font-size: 16px;
+    font-family: "Protest Revolution", sans-serif; 
+    letter-spacing: 2px;
+    background-color: #f4a261;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    color: white;
+    transition: background-color 0.3s;
+}
+
+#searchButton:hover {
+    background-color: #e76f51;
+}
+
+#imageContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    justify-content: center;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+}
+
+#imageContainer img {
+    width: 250px;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#imageContainer img:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+}
+
+#loading {
+    font-size: 1.2rem;
+    font-family: "Protest Revolution", sans-serif; 
+    letter-spacing: 2px;
+    color: #f4a261;
+    text-align: center;
+    margin-top: 20px;
+}
